@@ -1,12 +1,18 @@
+'use client'
+
+import ChatBox from "./ChatBox"
 import Conversation from "./Conversation"
-import ConversationsList from "./ConversationsList"
-import SearchBar from "./SearchBar"
+import Form from "./ChatInput"
+import Nav from "./ChatHeader"
 
 const ChatWrapper = () => {
+
   return (
-    <div className = "absolute w-[320px] h-screen left-0 top-0 bottom-0 bg-[#1F1D1D]">
-        <SearchBar/>
-        <ConversationsList />
+    <div className="relative">
+        <Conversation  />
+        <Nav  />
+        <ChatBox />
+        <Form />
     </div>
   )
 }

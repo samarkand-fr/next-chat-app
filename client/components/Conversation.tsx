@@ -1,7 +1,12 @@
+import ConversationsList from "./ConversationsList"
+import SearchBar from "./SearchBar"
 
 const Conversation = () => {
   return (
-    <div>Conversation</div>
+    <div className="absolute w-[320px] h-screen left-0 top-0 bottom-0 bg-[#1F1D1D]">
+      <SearchBar />
+      <ConversationsList />
+    </div>
   )
 }
 
