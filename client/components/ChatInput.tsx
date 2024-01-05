@@ -8,10 +8,10 @@ const ChatInput = () => {
         name=""
         id=""
         placeholder="Message......."
-        className="bg-[#312F2F] h-[59px] rounded-[30px] px-6 outline-none flex-1 text-white placeholder:text-[#FFFFFF66] placeholder:text-xl placeholder:font-semibold"
+        className="bg-[#c9d4cc] h-[59px] rounded-[30px] px-6 outline-none flex-1 text-[#2c2d2c] placeholder:text-[#2c2d2c] placeholder:text-xl placeholder:font-semibold"
       />
-      <div className="w-[59px] h-[59px] rounded-full bg-[#312F2F] flex items-center justify-center cursor-pointer">
-        <LuSendHorizonal className="text-white text-2xl" />
+      <div className="w-[59px] h-[59px] rounded-full bg-[#c9d4cc] flex items-center justify-center cursor-pointer">
+        <LuSendHorizonal className="text-[#2c2d2c] text-2xl" />
       </div>
     </div>
   );

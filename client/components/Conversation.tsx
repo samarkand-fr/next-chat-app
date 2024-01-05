@@ -9,7 +9,7 @@ const Conversation = ({ sidebar, toggleSidebar }: PropTypes) => {
   return (
     <div
       className={classNames(
-        "absolute w-full lg:w-[320px] h-screen left-0 top-0 bottom-0 bg-[#1F1D1D] z-10",
+        "absolute w-full lg:w-[320px] h-screen left-0 top-0 bottom-0 bg-[#1d3e26] z-10",
         {
           "hidden lg:block": sidebar,
         }

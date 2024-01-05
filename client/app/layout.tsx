@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className= 'bg-[url("/images/chat.jpeg")] min-h-screen bg-cover bg-no-repeat bg-[#050505AB] bg-blend-overlay'>{children}</body>
+      <body className= 'bg-[url("/images/chat.jpeg")] min-h-screen bg-cover bg-no-repeat bg-[#5a5050ab] bg-blend-overlay'>{children}</body>
     </html>
   )
 }
