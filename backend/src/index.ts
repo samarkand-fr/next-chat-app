@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 // connect database
 connection()
+app.use(express.json())
 // app.get('/', (req: Request, res: Response) => {
 //    return res.status(200).json({msg: 'Hello from home route'})
 // })
