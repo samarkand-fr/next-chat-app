@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import ReduxSetup from '@/store/ReduxSetup'
 import './globals.css'
 
 
@@ -14,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className= 'bg-[url("/images/chat.jpeg")] min-h-screen bg-cover bg-no-repeat bg-[#5a5050ab] bg-blend-overlay' >{children}</body>
+      <body className='bg-[url("/images/chat.jpeg")] min-h-screen bg-cover bg-no-repeat bg-[#5a5050ab] bg-blend-overlay' >
+        <ReduxSetup>
+          {children}
+        </ReduxSetup>
+      </body>
     </html>
   )
 }
